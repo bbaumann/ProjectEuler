@@ -51,6 +51,7 @@
     <Compile Include="IProjectEulerProblem.cs" />
     <Compile Include="LettersInNumbers.cs" />
     <Compile Include="Log.cs" />
+    <Compile Include="NumberOfSundays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReciprocalCycles.cs" />

@@ -12,7 +12,7 @@ namespace ProjectEuler
         
         static void Main(string[] args)
         {
-            GetProblem(17).Solve();
+            GetProblem(18).Solve();
             Console.Read();
         }
 
@@ -22,6 +22,8 @@ namespace ProjectEuler
             {
                 case 17:
                     return new LettersInNumbers();
+                case 18:
+                    return new NumberOfSundays();
                 case 26:
                     return new ReciprocalCycles();
                 case 31:
