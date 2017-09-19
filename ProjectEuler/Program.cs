@@ -12,15 +12,24 @@ namespace ProjectEuler
         
         static void Main(string[] args)
         {
-            //problem26();
+            GetProblem(17).Solve();
             Console.Read();
         }
 
-        static void problem26()
+        static IProjectEulerProblem GetProblem(int i)
         {
-
-            IProjectEulerProblem problem = new ReciprocalCycles();
-            problem.Solve();
+            switch (i)
+            {
+                case 17:
+                    return new LettersInNumbers();
+                case 26:
+                    return new ReciprocalCycles();
+                case 31:
+                    return new Coins();
+                default:
+                    break;
+            }
+            throw new ApplicationException("Problem not solved " + i.ToString()) ;
         }
     }
 }
