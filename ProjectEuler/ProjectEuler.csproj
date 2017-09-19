@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Coins.cs" />
+    <Compile Include="DistinctPowers.cs" />
     <Compile Include="FactorialSumOfDigits.cs" />
     <Compile Include="IProjectEulerProblem.cs" />
     <Compile Include="LettersInNumbers.cs" />

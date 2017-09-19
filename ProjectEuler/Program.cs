@@ -12,7 +12,7 @@ namespace ProjectEuler
         
         static void Main(string[] args)
         {
-            GetProblem(20).Solve();
+            GetProblem(29).Solve();
             Console.Read();
         }
 
@@ -28,6 +28,8 @@ namespace ProjectEuler
                     return new FactorialSumOfDigits();
                 case 26:
                     return new ReciprocalCycles();
+                case 29:
+                    return new DistinctPowers();
                 case 31:
                     return new Coins();
                 default:
